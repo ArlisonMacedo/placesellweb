@@ -1,0 +1,67 @@
+#page-landing {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--color-primary);
+  color: #ffffff;
+}
+.logo-container img{
+  height: 10rem;
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 3.2rem;
+}
+
+.content {
+  display: flex;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin: 3.2rem 0;
+}
+
+.button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font: 700 2.2rem Ubuntu;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: var(--color-secundary);
+  border-radius: 0.8rem;
+
+  width: 14.2rem;
+  height: 6.0rem;
+}
+
+.button a:hover{
+  transition: background-color 0.2s;
+}
+
+.button a:hover{
+  background-color: #B84BFF;
+}
+
+.totalConnections {
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+@media(min-width: 1100px){
+  .logo-container{
+    align-self: center;
+    margin: 0;
+    
+  }
+}
